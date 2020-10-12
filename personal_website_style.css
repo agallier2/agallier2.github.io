@@ -1,0 +1,81 @@
+/*#25274D #464866 #AAABB8 #2E9CCA #29648A*/
+
+body {
+    background-color: #25274D;
+}
+
+section {
+    padding: 0 7%;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #AAABB8;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #AAABB8;
+    font-size: 300%;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    font-size: larger;
+    padding-top: 20%;
+}
+
+#education {
+    text-align: center;
+}
+
+#float-child {
+    width: 45%;
+    float: left;
+    padding: 20px;
+  }  
+
+h2 {
+    color: #AAABB8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: #AAABB8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    color: #29648A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#languages {
+    width:45%;
+    float:left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+#data_science {
+    width:20%;
+    float:left;
+    margin-top: 10%;
+}
+
+#development {
+    width:20%;
+    float:left;
+    margin-top: 10%;
+    color: #29648A;
+}
+
+.skills {
+    background-color: #AAABB8;
+    color: #29648A;
+}
