@@ -4,75 +4,62 @@
     <head>
         <title>Audrey Gallier</title>
         <link rel="stylesheet" type="text/css" href="personal_website_style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     </head>
 </html>
 
 <body>
     <section id="intro">
         <div id="info">
-            <h1>Audrey Gallier</h1>
+            <h1>AUDREY GALLIER</h1>
             <p>Hi! I'm a sophomore at Northeastern University proficient in data science, Java, and web development.</p>
-            <p style="color:#2E9CCA">Download My Resume</p>
-            <p style="color:#AAABB8">test color 1</p>
-            <p style="color:#29648A">test color 2</p>
-            <p style="color:#464866">test color 3</p>
-            <p style="color:#25274D">test color 4</p>
+            <a href="resume.pdf" style="color:white">Download My Resume</a>
         </div>
     </section>
     <section id="education">
         <h1>Education</h1>
-        <div id="float-child">
-            <h2>Illinois Mathematics and Science Academy, class of 2019</h2>
             <h2>Northeastern University, class of 2023</h2>
-            <p>Bachelor's in Computer Science, Concentration in AI</p>
-            <p>University Honors Program</p>
-            <p>GPA: 3.8</p>
-        </div>
-        <div id="float-child">
-            <h3>College Coursework:</h3>
-            <ul>
-                <li>Object-Oriented Design (CS3500)</li>
-                <li>Foundations of Data Science (DS3000)</li>
-                <li>Algorithms & Data (CS3000)</li>
-                <li>Fundamentals of Computer Science 1 and 2 (CS2500 and CS2510)</li>
-                <li>Foundations of Cybersecurity (CY2550)</li>
-            </ul>
-        </div>
+            <p>Bachelor's in Computer Science, Concentration in AI; University Honors Program; sGPA: 3.8</p>
+            <h2>Illinois Mathematics and Science Academy, class of 2019</h2>
+            <h3 style="color: white;">Courses I've Taken</h3>
+            <p>Object-Oriented Design (CS3500), Foundations of Data Science (DS3000), Algorithms & Data (CS3000), Fundamentals of Computer Science 1 and 2 (CS2500 and CS2510), Foundations of Cybersecurity (CY2550)</p>
     </section>
     <section id="skills">
-        <h1>Skills</h1>
-        <div id="data_science" class="skills">
+        <h1 style="opacity: 65%;">Skills</h1>
+    <div class="skills">
+        <div id="languages">
+            <h3 style="color: #25274D;text-align: center;">LANGUAGES</h3>
             <ul>
-                <li>Data Science:</li>
-                <li>Numpy, Pandas</li>
-                <li>Matplotlib, Seaborn, Plotly</li>
-                <li>Scikit-learn, Tensorflow</li>
-                <li>Beautiful Soup</li>
+                <li style="color: #25274D;font-size: 100%;">Python</li>
+                <li style="color: #25274D;font-size: 100%;">Java</li>
+                <li style="color: #25274D;font-size: 100%;">C, C++</li>
+                <li style="color: #25274D;font-size: 100%;">HTML/CSS</li>
+                <li style="color: #25274D;font-size: 100%;">SQL</li>
             </ul>
         </div>
-        <div id="languages" class="skills">
-            <h3 style="color: #29648A;text-align: center;">Languages</h3>
+        <div id="data_science">
+            <h3 style="color: #25274D;text-align: center;">DATA SCIENCE</h3>
             <ul>
-                <li>Python</li>
-                <li>Java</li>
-                <li>C</li>
-                <li>C++</li>
-                <li>HTML/CSS</li>
-                <li>SQL</li>
+                <li style="color: #25274D;font-size: 100%;">Numpy, Pandas</li>
+                <li style="color: #25274D;font-size: 100%;">Matplotlib, Seaborn, Plotly</li>
+                <li style="color: #25274D;font-size: 100%;">Scikit-learn, Tensorflow</li>
+                <li style="color: #25274D;font-size: 100%;">Beautiful Soup</li>
             </ul>
         </div>
-        <div id="development" class="skills">
+        <div id="development">
+            <h3 style="color: #25274D;text-align: center;">OTHER TECHNOLOGIES</h3>
             <ul>
-                <li>JUnit</li>
-                <li>Vim</li>
-                <li>Emacs</li>
-                <li>GnuPG</li>
-                <li>Keybase</li>
+                <li style="color: #25274D;font-size: 100%;">JUnit</li>
+                <li style="color: #25274D;font-size: 100%;">Vim</li>
+                <li style="color: #25274D;font-size: 100%;">Emacs</li>
+                <li style="color: #25274D;font-size: 100%;">GnuPG</li>
+                <li style="color: #25274D;font-size: 100%;">Keybase</li>
             </ul>
         </div>
+    </div>
     </section>
     <section id="experience">
-        <h1>Work Experience</h1>
+        <h1>Where I've Worked</h1>
         <div id="idg">
             <h2>Instructional Design Assistant, Northeastern University Instructional Design Group, 2019-present</h2>
             <p>I provide faculty support for instructional technologies such as Canvas and Articulate 360, and develop innovative solutions and documentation for the use of these technologies. I've developed my communication skills with regard to technology, gained a new perspective on the user side of software, and perfected a remote, collaborative workflow.</p>
@@ -83,26 +70,106 @@
         </div>
     </section>
     <section id="projects">
-        <h1>Projects</h1>
-        <div id="data_science">
-            <h2>Data Science</h2>
-            <!--<a href="">Our Semester Project goes here</a>-->
-            <p>These projects were completed during the Data Scientist course through Practicum by Yandex:</p>
-            <a href="https://colab.research.google.com/drive/1GF-S0TupDu1DXIzVscqfi3UUGr_hDdWx?usp=sharing">
-                Analysis of Game Sales: Exhibits data cleaning, plotting with Matplotlib, and analysis with SciPy</a>
-            <a href="https://colab.research.google.com/drive/1LTTRQYHEQn8LRjtwFrsb1qCqm5G9ACL5?usp=sharing">
-                Machine Learning for Gold Recovery: Uses Scikit-learn to assess regression models on a gold recovery dataset</a>
-                <a href="https://colab.research.google.com/drive/1s0njGO6y2spV7Qhg1p3_yxAZ4hsHGvJ3?usp=sharing">
-                    Webscraping Recipes: Uses Beautiful Soup to scrape and save large volumes of data from Allrecipes.com</a>
+        <h1 style="opacity: 65%;">Projects</h1>
+        <div class="column">
+            <div class="row">
+                <div class="content">
+                    <h3 style="color: #25274D">ANALYZING GAME SALES</h3>
+                <p style="color: #25274D">Exhibits data cleaning, plotting with Matplotlib, and analysis with SciPy</p>
+                <a href="https://colab.research.google.com/drive/1GF-S0TupDu1DXIzVscqfi3UUGr_hDdWx?usp=sharing">
+                    <button>
+                        Colab Notebook
+                    </button>
+                </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <h3>MINESWEEPER GAME</h3>
+                <p style="color: #25274D">A recreation of the online game using ArrayLists  and object-oriented programming in Java</p>
+                <p style="color: #25274D">Code available upon request</p>
+                </div>
+            </div>
         </div>
-        <div id="java">
-            <p>These projects were completed during Northeastern coursework. Code available upon request.</p>
-            <!--<p>Card Game</p>-->
-            <p>Minesweeper Game: A recreation of the online game using ArrayLists</p>
-            <p>N Bullets: A recreation of the online game 10 Bullets</p>
+        <div class="column">
+            <div class="row">
+                <div class="content">
+                    <h3>MACHINE LEARNING: GOLD PRODUCTION</h3>
+                <p style="color: #25274D">Uses Scikit-learn to assess regression models on a gold recovery dataset</p>
+                <a href="https://colab.research.google.com/drive/1LTTRQYHEQn8LRjtwFrsb1qCqm5G9ACL5?usp=sharing">
+                    <button>
+                        Colab Notebook
+                    </button></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <h3>
+                        N BULLETS
+                    </h3>
+                    <p style="color: #25274D">A recreation of the online game 10 Bullets using object-oriented programming in Java</p>
+                    <p style="color: #25274D">Code available upon request</p>
+                </div>
+            </div>
         </div>
-        <div id="web_design">
-            <a href="http://community-cafe.herokuapp.com/">ComCafe: Full-stack developed website for UIUC HackThis 2020. I worked on the HTML, CSS, and Google Maps integration.</a>
+        <div class="column">
+            <div class="row">
+                <div class="content">
+                    <h3>
+                        WEBSCRAPING RECIPES
+                    </h3>
+                    <p style="color: #25274D">Uses Beautiful Soup to scrape and save large volumes of data from Allrecipes.com</p>
+                    <a href="https://colab.research.google.com/drive/1s0njGO6y2spV7Qhg1p3_yxAZ4hsHGvJ3?usp=sharing">
+                        <button>
+                            Colab Notebook
+                        </button>
+                        </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="content">
+                    <h3>COMCAFE</h3>
+                <p style="color: #25274D">Full-stack developed website for UIUC HackThis 2020. I worked on the HTML, CSS, and Google Maps integration.</p>
+                <a href="http://community-cafe.herokuapp.com/">
+                    <button>
+                        View Site
+                    </button></a>
+                </div>
+            </div>
         </div>
     </section>
-</body>"Hello World" 
+    <section id="connect">
+        <h3 style="color: white">Let's connect!</h3>
+        <footer class="page-footer font-small" style="color: #e1dff2;">
+			 
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Grid row-->
+                <div>
+
+                    <!-- Grid column -->
+                    <div class="col-md-12">
+                        <div class="flex-center" style="margin: none;padding-bottom: 3%;">
+                            <!--Linkedin -->
+                            <a style="color: white;margin: 2%;" class="li-ic" href="https://www.linkedin.com/in/audrey-gallier-3055b2143/">
+                                <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <!--GitHub-->
+                            <a style="color: white;margin:2%" class="ins-ic" href="https://github.com/agallier2">
+                                <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Elements -->
+
+
+        </footer>
+    </section>
+</body>
