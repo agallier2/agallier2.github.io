@@ -1,7 +1,9 @@
 /*#25274D #464866 #AAABB8 #2E9CCA #29648A*/
 
+
+
 body {
-    background-image: url(shutterstock_487576222.jpg);
+    background-image: url(shutterstock_1369394858_2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,19 +22,18 @@ section {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: myFont;
     color: white;
 }
 
 a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: myFont;
     color: #29648A;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: lightFont;
     font-size: 350%;
-    text-align: center;
     transition-duration: 0.4s;
     font-weight: normal;
 }
@@ -51,18 +52,18 @@ h1 {
   }  
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: lightFont;
     font-weight: normal;
 }
 
 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: myFont;
     font-weight: normal;
 }
 
 li {
     color: #25274D;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: myFont;
 }
 
 #languages {
@@ -86,7 +87,7 @@ li {
     background-color:white;
     color: #25274D;
     border-radius: 12px;
-    opacity: 60%;
+    opacity: 70%;
     border: 5px double #25274D;
     overflow: hidden;
 }
@@ -104,7 +105,7 @@ li {
       border-radius: 50%;
       text-align: center;
       text-overflow: inherit;
-      opacity: 60%;
+      opacity: 70%;
       border: 5px double #25274D;
 
   }
@@ -129,7 +130,7 @@ li {
     text-align: center;
     border-radius: 8px;
     transition-duration: 0.4s;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: myFont;
   }
   
   button:hover {
@@ -173,7 +174,7 @@ li {
   #experience, #education {
       height:auto;
       background-color: #25274D;
-      opacity: 65%;
+      opacity: 75%;
       padding-bottom: 3%;
   }
 
@@ -183,4 +184,14 @@ li {
       opacity: 75%;
       color: white;
       text-align: center;
+  }
+
+  @font-face {
+      font-family: myFont;
+      src:url('Barlow-Medium.ttf');
+  }
+
+  @font-face {
+      font-family:lightFont;
+      src:url('Barlow-Light.ttf');
   }
