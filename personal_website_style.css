@@ -44,6 +44,10 @@ h1 {
     padding-top: 20%;
 }
 
+#intro {
+    background-size: cover;
+}
+
 #float-child {
     width: 45%;
     float: left;
@@ -194,4 +198,28 @@ li {
   @font-face {
       font-family:lightFont;
       src:url('Barlow-Light.ttf');
+  }
+
+  @font-face {
+      font-family:operator;
+      src:url('OperatorMono-Medium.otf');
+  }
+
+#skills, #experience, #projects {
+      padding-top: 10%;
+      padding-bottom: 10%;
+  }
+
+  #education {
+      padding-top: 8%;
+      padding-bottom: 8%;
+  }
+
+  .underline {
+      background-color: white;
+      opacity: 75%;
+      height: 2px;
+      width: 75%;
+      margin-bottom: 5%;
+      margin-top: 0%;
   }
